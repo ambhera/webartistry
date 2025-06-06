@@ -1,0 +1,95 @@
+body{
+    
+
+    background-color: #D5B0AC;
+    color: #402E2A;
+    size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    size: 160%;
+    font-family: Lucida Handwriting, cursive;
+    text-decoration: underline;
+}
+
+h2{
+    size: 140%;
+    text-align: left;
+    text-shadow: 3px 3px rgb(233, 147, 175);
+}
+
+h3{
+    size:120%
+}
+
+article{
+    border-radius: 40px;
+    background-color: #CEA0AE;
+    width:75%;
+    padding: 1em;
+    size: 100%;
+}
+
+blockquote{
+    text-align: center;
+    font-style: italic;
+    font-family: Brush Script MT, cursive;
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    font-family: Lucida Handwriting, cursive;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Lucida Handwriting, cursive;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #402E2A;
+}
+li a:visited{
+    color:#FFC300;
+}
+ul li a:hover{
+    color:#9CD08F;
+    text-shadow: 2px 2px black;
+}
+li a:active{
+    color:#FF5733;
+}
+
+ol li a:hover{
+    color:#FFC300;
+}
+img{
+    float:right;
+    width: 300px;
+    border-radius: 30px;
+}
+
+#me:hover{
+    color:rgb(243, 170, 170);
+    text-shadow: 2px 2px rgb(238, 110, 110);
+}
+
+#Glasses:hover{
+    color:rgb(74, 167, 253);
+    text-shadow: 1px 1px blue;
+}
